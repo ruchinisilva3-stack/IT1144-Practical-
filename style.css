@@ -1,0 +1,77 @@
+body{background-color:#F1F5F9;
+
+ }
+h1{background-color:#1E3A8A;
+   color:#F9FAFB;
+   }
+section{padding:10px;
+        margin:10px;
+       background-color:white;
+       border:3px solid black;
+       border-radius:20px;
+       box-shadow:20px;
+       text-align:justify;
+       margin-bottom:25px;
+
+    
+}
+h2{color:#1E3A8A ;
+}
+a{text-decoration:none; }
+
+
+.container{display:flex;
+           justify-content:center;
+            }
+*{box-sizzing:border-box;}
+.small-box{background-color:#0D9488;
+           color:#F9FAFB ;
+           padding:2px;
+           border-radius:4px;
+           display:inline-flex;
+              }
+
+.gallery container{   justify-content:space-between; 
+                      display:flex;
+                      justify-content:center;
+                      gap:10px;
+                      padding:40px 20px;
+                      flex-wrap:wrap;
+}
+.artcard{background-color:rgba(255,255,255,0.9);
+         border:2px solid#1E3A8A;
+          border-radius:8px;
+          padding:10px;
+          width:550px;
+          text-align:center;
+          box-shadow:2px 2px 8px(0 0 0 0.2);
+
+}
+
+.artcard img{
+               width:80%;
+               heigt:150px;
+               border-color:#1E3A8A;
+               font-wegith:blod;
+               object-fit:cover;
+               
+}
+
+.artcard p{
+color:#1E3A8A;
+margin:10px;
+font-weight:bold;
+font-size:16px;}
+
+footer{background-color:#1E3A8A;
+       color:#F9FAFB;}
+nav{background-color:#0D9488;
+       color:#F9FAFB;
+       width:150px;
+       height:20px;
+       padding:10px;
+       border-radius:10px;
+       list style:none; 
+
+
+}
